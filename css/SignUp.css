@@ -1,0 +1,47 @@
+.registar-container{
+display: inline-block;
+width: 300px;
+	height: 200px;
+	border-radius: 5px;
+	border: 1px solid black;
+	margin-top: 20px;
+}
+
+.registar-header{
+	background-color: blue;
+	color: white;
+	text-shadow: 1px 1px gray;
+	width: 100%;
+	border-bottom: 1px solid black;
+}
+
+.registar-container-internal{
+	border:1px solid gray;
+	width: 96%;
+	margin:2%;
+	display: block;
+	float: right;
+	height: 140px;
+}
+
+.registar-container-internal p ,.registar-container-internal input{
+	display: block;
+	float: left;
+	width: 48%;
+	height: 20px;
+	margin: 0;
+
+}
+.registar-container-internal input{
+	margin-top: 15px;
+ }
+.registar-container-internal p{
+	margin-top: 20px;
+}
+
+.registar-container input[type=submit]{
+	float: right;
+	display: block;
+	margin-right: 7px;
+	cursor: pointer;
+}
