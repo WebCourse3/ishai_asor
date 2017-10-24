@@ -1,0 +1,42 @@
+.navbar{
+	background-color: #2aabd2;
+
+}
+.navbar-right{
+margin-right: 0;
+}
+
+.navbar-right:first-of-type{
+	margin-right: 10px;
+}
+a{
+	color: white;
+	float: right;
+}
+
+h4{
+	color: white;
+}
+
+.navbar img{
+	height: 40px;
+	width: 40px;
+	margin:5px;
+}
+
+#tweetText{
+	height: 60px;
+	border-radius: 4px;
+	line-height: 18px;
+	resize: both;
+
+}
+
+.mt-1{
+	margin-top: 14px;
+}
+
+.user-name{
+	font-weight: 600;
+}
+
