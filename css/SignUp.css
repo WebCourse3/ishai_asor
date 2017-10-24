@@ -1,3 +1,4 @@
+/*comment for pull reqeust*/
 .registar-container{
 display: inline-block;
 width: 300px;
@@ -44,4 +45,8 @@ width: 300px;
 	display: block;
 	margin-right: 7px;
 	cursor: pointer;
+}
+
+footer{
+	resize: none;
 }
