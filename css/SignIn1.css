@@ -24,10 +24,29 @@ h4{
 	margin:5px;
 }
 
+.panel{
+	padding: 0;
+}
+
+.registar-header{
+	background-color: #2aabd2;
+	color: white;
+	height: 30px;
+	width: 100%;
+	margin-bottom: 20px;
+	border-radius: inherit;
+	line-height: 30px;
+	padding-left: 10px;
+}
+
 p{
 	padding: 8px;
 }
 
+
+
 input[type=submit]{
 	margin-bottom: 10px;
 }
+
+
