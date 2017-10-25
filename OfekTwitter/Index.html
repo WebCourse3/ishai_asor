@@ -7,8 +7,10 @@
 	<link rel="icon" href="../images/OfekUnit.png">
 	<link rel="stylesheet" href="../css/bootstrap.css">
 	<link rel="stylesheet" href="../css/index1.css">
+	<script src="../scripts/tweets.js"></script>
 </head>
 <body>
+
 <header class="navbar navbar-toggleable-md navbar-light bg-faded ">
 	<img src="../images/OfekUnit.png" alt="ofeklogo" class="navbar-left" >
 	<ul class="nav navbar-nav navbar-right">
@@ -27,10 +29,10 @@
 <form>
 	<div class="col-xs-10 col-md-10 col-md-offset-1">
 		<textarea placeholder="tweet text..." id="tweetText" class="col-xs-12 col-md-12  form-control noresize"></textarea>
-		<input type="submit" value="publish" class="btn btn-primary pull-right"></input>
+		<input type="button" value="publish" class="btn btn-primary pull-right" onclick="addTweet()"></input>
 	</div>
 </form>
-<div class="col-xs-10 col-md-10 col-md-offset-1">
+<div class="col-xs-10 col-md-10 col-md-offset-1" id = "tweetsHolder">
 
 	<div class="row mt-1">
 		<img src="../images/useravatar.png" class="left col-xs-1 col-md-1">

@@ -6,9 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1bf438c2-e1dc-49e3-9309-6720f2d492d0" name="Default" comment="h">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfekTwitter/SignIn.html" afterPath="$PROJECT_DIR$/OfekTwitter/SignIn.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfekTwitter/SignUp.html" afterPath="$PROJECT_DIR$/OfekTwitter/SignUp.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/SignIn1.css" afterPath="$PROJECT_DIR$/css/SignIn1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfekTwitter/Index.html" afterPath="$PROJECT_DIR$/OfekTwitter/Index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfekTwitter/users.html" afterPath="$PROJECT_DIR$/OfekTwitter/users.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/tweets.js" afterPath="$PROJECT_DIR$/scripts/tweets.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/users.js" afterPath="$PROJECT_DIR$/scripts/users.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,12 +23,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SignUp.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/OfekTwitter/SignUp.html">
+      <file leaf-file-name="users.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/users.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="51" column="18" lean-forward="true" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
-              <folding />
+            <state relative-caret-position="619">
+              <caret line="39" column="8" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+              <folding>
+                <element signature="n#!!block;n#createUserDiv#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OfekTwitter/users.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="114" column="65" lean-forward="false" selection-start-line="114" selection-start-column="56" selection-end-line="114" selection-end-column="65" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#1052#3355#0" expanded="false" />
+                <marker date="1508937677449" expanded="false" signature="1664:1919" ph="..." />
+                <marker date="1508937677449" expanded="false" signature="1952:2207" ph="..." />
+                <marker date="1508937677449" expanded="false" signature="2240:2495" ph="..." />
+                <marker date="1508937677449" expanded="false" signature="2526:2773" ph="..." />
+                <marker date="1508937677449" expanded="false" signature="2561:2766" ph="..." />
+                <marker date="1508937677449" expanded="false" signature="2806:3061" ph="..." />
+                <marker date="1508937677449" expanded="false" signature="2882:3044" ph="..." />
+                <marker date="1508937677449" expanded="false" signature="3094:3349" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,6 +64,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -56,13 +82,15 @@
         <option value="$PROJECT_DIR$/css/SignUp.css" />
         <option value="$PROJECT_DIR$/css/static.css" />
         <option value="$PROJECT_DIR$/css/users.css" />
-        <option value="$PROJECT_DIR$/OfekTwitter/Index.html" />
         <option value="$PROJECT_DIR$/css/index1.css" />
         <option value="$PROJECT_DIR$/css/users1.css" />
-        <option value="$PROJECT_DIR$/OfekTwitter/users.html" />
         <option value="$PROJECT_DIR$/css/SignIn1.css" />
         <option value="$PROJECT_DIR$/OfekTwitter/SignIn.html" />
         <option value="$PROJECT_DIR$/OfekTwitter/SignUp.html" />
+        <option value="$PROJECT_DIR$/OfekTwitter/Index.html" />
+        <option value="$PROJECT_DIR$/scripts/tweets.js" />
+        <option value="$PROJECT_DIR$/OfekTwitter/users.html" />
+        <option value="$PROJECT_DIR$/scripts/users.js" />
       </list>
     </option>
   </component>
@@ -72,7 +100,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-17" />
     <option name="y" value="1" />
     <option name="width" value="1260" />
@@ -116,6 +144,11 @@
               <item name="exercise" type="462c0819:PsiDirectoryNode" />
               <item name="OfekTwitter" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -152,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.SignIn.html">
+  <component name="RunManager" selected="JavaScript Debug.Index.html">
     <configuration name="Index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/exercise/OfekTwitter/Index.html" />
     <configuration name="SignIn.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/exercise/OfekTwitter/SignIn.html" />
     <configuration name="SignUp.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:63342/exercise/OfekTwitter/SignUp.html" />
@@ -165,9 +198,9 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.SignIn.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.users.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Index.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Index.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.SignIn.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.users.html" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +216,7 @@
       <updated>1508742918304</updated>
       <workItem from="1508742923895" duration="12251000" />
       <workItem from="1508824596132" duration="17133000" />
-      <workItem from="1508911811604" duration="1304000" />
+      <workItem from="1508911811604" duration="9281000" />
     </task>
     <task id="LOCAL-00001" summary="h">
       <created>1508826975285</created>
@@ -196,13 +229,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30688000" />
+    <option name="totallyTimeSpent" value="38665000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-17" y="1" width="1260" height="579" extended-state="0" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17524116" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1703125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6309013" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -231,7 +264,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="h" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/scripts/users.js</url>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -267,6 +308,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -315,13 +357,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OfekTwitter/Index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="29" column="78" lean-forward="false" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="78" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -336,16 +372,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
           <caret line="63" column="2" lean-forward="false" selection-start-line="63" selection-start-column="2" selection-end-line="63" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OfekTwitter/users.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="99" column="10" lean-forward="true" selection-start-line="99" selection-start-column="10" selection-end-line="99" selection-end-column="10" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -353,6 +380,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="24" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -392,9 +420,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OfekTwitter/SignUp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="51" column="18" lean-forward="true" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+        <state relative-caret-position="487">
+          <caret line="53" column="48" lean-forward="true" selection-start-line="53" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfekTwitter/Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="38" column="46" lean-forward="true" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/tweets.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!block;n#createTweetElement#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfekTwitter/users.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="114" column="65" lean-forward="false" selection-start-line="114" selection-start-column="56" selection-end-line="114" selection-end-column="65" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#1052#3355#0" expanded="false" />
+            <marker date="1508937677449" expanded="false" signature="1664:1919" ph="..." />
+            <marker date="1508937677449" expanded="false" signature="1952:2207" ph="..." />
+            <marker date="1508937677449" expanded="false" signature="2240:2495" ph="..." />
+            <marker date="1508937677449" expanded="false" signature="2526:2773" ph="..." />
+            <marker date="1508937677449" expanded="false" signature="2561:2766" ph="..." />
+            <marker date="1508937677449" expanded="false" signature="2806:3061" ph="..." />
+            <marker date="1508937677449" expanded="false" signature="2882:3044" ph="..." />
+            <marker date="1508937677449" expanded="false" signature="3094:3349" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="39" column="8" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+          <folding>
+            <element signature="n#!!block;n#createUserDiv#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
