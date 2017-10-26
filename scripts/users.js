@@ -30,6 +30,28 @@ document.addEventListener('DOMContentLoaded', function() {
 	}
 }, false);
 
+function filterUsers(){
+	var filter = document.getElementById('filter').value;
+    var grid = document.getElementById('general-grid');
+    if(grid==null){//for some reason the grid turn to null
+    	grid = document.createElement('div');
+    	grid.className = 'col-xs-10 col-md-10';
+    	grid.id = 'general-grid';
+    }
+	var nodes = grid.getElementsByClassName('cont');
+	for(var i=0;i<nodes.length;i++){
+	grid.removeChild(nodes[i]);
+	}
+
+        var results = users.filter(function (user) {
+		return user.username ==  filter;
+	});
+
+	for(var j = 0;j<results.length;j++){
+		grid.appendChild(createUserDiv(results[j],false));//get the followers grid
+	}
+
+}
 
 function Follow(userid){
 	var userElements = document.getElementsByClassName(userid);
@@ -42,7 +64,7 @@ function Follow(userid){
 	buttons[0].value = 'UnFollow';//change the text
 	buttons[0].setAttribute('onclick','UnFollow('+userid+')');//chenge the action
     ChangeButtonColors(buttons[0],'#337ab7','#fff');
-	var followers = document.getElementById('followers').appendChild(createUserDiv(results[0],true));//get the followers grid
+	document.getElementById('followers').appendChild(createUserDiv(results[0],true));//get the followers grid
 
 }
 
@@ -69,6 +91,7 @@ function createUserDiv(user,followerModel) {
     if(!followerModel)
 	    container.className = 'col-xs-2 col-md-2';//the follower model is because the bootstrap shit
     container.classList.add(user.id)  ;
+	container.classList.add('cont');
 	var panel = document.createElement('div');
 	panel.className = 'panel panel-default';
 
@@ -98,7 +121,7 @@ function createUserDiv(user,followerModel) {
 
 	var userName = document.createElement('div');
 	userName.innerText = user.username;
-
+     userName.classList.add('user-name');
 	panelBudy.appendChild(image);
 	panelBudy.appendChild(button);
 	panelBudy.appendChild(userName);
