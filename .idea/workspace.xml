@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bf438c2-e1dc-49e3-9309-6720f2d492d0" name="Default" comment="h">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfekTwitter/users.html" afterPath="$PROJECT_DIR$/OfekTwitter/users.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/users.js" afterPath="$PROJECT_DIR$/scripts/users.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,12 +23,13 @@
       <file leaf-file-name="users.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/users.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="49" column="32" lean-forward="false" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+            <state relative-caret-position="442">
+              <caret line="46" column="39" lean-forward="true" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
               <folding>
                 <element signature="e#356#915#0" expanded="false" />
                 <element signature="n#!!block;n#Follow#0" expanded="false" />
                 <element signature="n#!!block;n#UnFollow#0" expanded="false" />
+                <element signature="n#!!block;n#createUserDiv#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -110,6 +111,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,7 +143,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -172,7 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Index.html">
+  <component name="RunManager" selected="JavaScript Debug.users.html">
     <configuration name="Index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/exercise/OfekTwitter/Index.html" />
     <configuration name="SignIn.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/exercise/OfekTwitter/SignIn.html" />
     <configuration name="SignUp.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:63342/exercise/OfekTwitter/SignUp.html" />
@@ -185,9 +186,9 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Index.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.SignIn.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.users.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.users.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Index.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.SignIn.html" />
       </list>
     </recent_temporary>
   </component>
@@ -205,6 +206,7 @@
       <workItem from="1508824596132" duration="17133000" />
       <workItem from="1508911811604" duration="9281000" />
       <workItem from="1508997696226" duration="11455000" />
+      <workItem from="1509260742775" duration="1229000" />
     </task>
     <task id="LOCAL-00001" summary="h">
       <created>1508826975285</created>
@@ -217,7 +219,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50120000" />
+    <option name="totallyTimeSpent" value="51349000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -266,6 +268,28 @@
             <element signature="e#356#915#0" expanded="false" />
             <element signature="n#!!block;n#Follow#0" expanded="false" />
             <element signature="n#!!block;n#UnFollow#0" expanded="false" />
+            <element signature="n#!!block;n#createUserDiv#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfekTwitter/users.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#356#915#0" expanded="false" />
+            <element signature="n#!!block;n#Follow#0" expanded="false" />
+            <element signature="n#!!block;n#UnFollow#0" expanded="false" />
+            <element signature="n#!!block;n#createUserDiv#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -339,7 +363,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -443,14 +466,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMCore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="595" column="0" lean-forward="false" selection-start-line="595" selection-start-column="0" selection-end-line="595" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="49" column="32" lean-forward="false" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+        <state relative-caret-position="442">
+          <caret line="46" column="39" lean-forward="true" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
           <folding>
             <element signature="e#356#915#0" expanded="false" />
             <element signature="n#!!block;n#Follow#0" expanded="false" />
             <element signature="n#!!block;n#UnFollow#0" expanded="false" />
+            <element signature="n#!!block;n#createUserDiv#0" expanded="false" />
           </folding>
         </state>
       </provider>

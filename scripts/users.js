@@ -31,26 +31,26 @@ document.addEventListener('DOMContentLoaded', function() {
 }, false);
 
 function filterUsers(){
-	var filter = document.getElementById('filter').value;
+	var filter = document.getElementById('filter').value.toUpperCase();
     var grid = document.getElementById('general-grid');
-    if(grid==null){//for some reason the grid turn to null
+    if(grid == null){//for some reason the grid turn to null
     	grid = document.createElement('div');
     	grid.className = 'col-xs-10 col-md-10';
     	grid.id = 'general-grid';
     }
 	var nodes = grid.getElementsByClassName('cont');
-	for(var i=0;i<nodes.length;i++){
-	grid.removeChild(nodes[i]);
+    var length = nodes.length;
+	for(var i=length;i>0;i--){
+	grid.removeChild(nodes[i-1]);
 	}
 
         var results = users.filter(function (user) {
-		return user.username ==  filter;
+		return user.username.toUpperCase().indexOf(filter) >-1;
 	});
 
 	for(var j = 0;j<results.length;j++){
 		grid.appendChild(createUserDiv(results[j],false));//get the followers grid
 	}
-
 }
 
 function Follow(userid){
