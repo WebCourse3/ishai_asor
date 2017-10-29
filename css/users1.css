@@ -34,8 +34,10 @@ img{
 
 .panel{
 	margin: 5px;
+	min-width: 100px;
+	display: block;
 }
-
++
 .panel input[type=button]{
 	margin-top: 5px;
 }

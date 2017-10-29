@@ -8,6 +8,9 @@
 	<link rel="stylesheet" href="../css/bootstrap.css">
 	<link rel="stylesheet" href="../css/index1.css">
 	<script src="../scripts/tweets.js"></script>
+	<script src="../scripts/testing.js"></script>
+	<link rel="stylesheet" href="../css/testing.css">
+
 </head>
 <body>
 
@@ -47,4 +50,20 @@
 	</div>
 </div>
 </body>
+<script>
+	test_group('first test group', function() {
+		assert(true, "simple successful test");
+		assert(true, "simple successful test 2");
+		assert(false, "simple unsuccessful test");
+	});
+
+
+	test_group('second test group', function() {
+		assert(true, "simple successful test");
+		assert(true, "simple unsuccessful test 2");
+		assert(true, "simple unsuccessful test 3");
+	});
+
+</script>
+
 </html>

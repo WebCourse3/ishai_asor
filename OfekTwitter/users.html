@@ -9,6 +9,9 @@
 	<link rel="stylesheet" href="../css/users1.css">
 	<script src="../scripts/users.js"></script>
 
+	<script src="../scripts/testing.js"></script>
+	<link rel="stylesheet" href="../css/testing.css">
+
 </head>
 
 <body>
@@ -29,7 +32,7 @@
 </header>
 
 <div class="col-xs-12 col-md-12">
-	<div class=" col-xs-12 col-md-4 left ">	<input type="text" placeholder="Filter by user name" class="form-control" id="filter"></div>
+	<div class=" col-xs-12 col-md-4 left ">	<input type="text" placeholder="Filter by user name" class="form-control" id="filter" onkeypress="filterUsers()"></div>
 	<input type="button" value="ok" class="btn btn-primary " onclick="filterUsers()" >
 </div>
 
