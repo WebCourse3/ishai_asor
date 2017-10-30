@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1bf438c2-e1dc-49e3-9309-6720f2d492d0" name="Default" comment="h">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OfekTwitter/users.html" afterPath="$PROJECT_DIR$/OfekTwitter/users.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/ofekQuery.js" afterPath="$PROJECT_DIR$/scripts/ofekQuery.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,27 +20,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="users.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="users.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OfekTwitter/users.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+            <state relative-caret-position="483">
+              <caret line="47" column="6" lean-forward="true" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ofekQuery.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ofekQuery.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/ofekQuery.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="622">
-              <caret line="66" column="17" lean-forward="true" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+            <state relative-caret-position="289">
+              <caret line="104" column="0" lean-forward="true" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
               <folding>
-                <element signature="e#149#265#0" expanded="false" />
-                <element signature="e#309#407#0" expanded="false" />
-                <element signature="e#437#469#0" expanded="false" />
-                <element signature="e#498#573#0" expanded="false" />
-                <element signature="n#!!block;n#getListChildren#0" expanded="false" />
+                <element signature="n#!!block;n#$#0" expanded="false" />
+                <element signature="e#90#751#0" expanded="false" />
+                <element signature="e#150#266#0" expanded="false" />
+                <element signature="e#310#408#0" expanded="false" />
+                <element signature="e#438#470#0" expanded="false" />
+                <element signature="e#499#574#0" expanded="false" />
+                <element signature="n#!!block;n#filterResults#0" expanded="false" />
+                <element signature="n#!!block;n#filterListByTag#0" expanded="false" />
+                <element signature="n#!!block;n#filterListByClassName#0" expanded="false" />
+                <element signature="n#!!block;n#firstFilter#0" expanded="false" />
                 <element signature="n#!!block;n#getByID#0" expanded="false" />
                 <element signature="n#!!block;n#getByTag#0" expanded="false" />
                 <element signature="n#!!block;n#getByClass#0" expanded="false" />
@@ -90,8 +94,8 @@
         <option value="$PROJECT_DIR$/scripts/tweets.js" />
         <option value="$PROJECT_DIR$/OfekTwitter/Index.html" />
         <option value="$PROJECT_DIR$/scripts/users.js" />
-        <option value="$PROJECT_DIR$/scripts/ofekQuery.js" />
         <option value="$PROJECT_DIR$/OfekTwitter/users.html" />
+        <option value="$PROJECT_DIR$/scripts/ofekQuery.js" />
       </list>
     </option>
   </component>
@@ -220,7 +224,7 @@
       <workItem from="1508911811604" duration="9281000" />
       <workItem from="1508997696226" duration="11455000" />
       <workItem from="1509260742775" duration="11584000" />
-      <workItem from="1509343849170" duration="21202000" />
+      <workItem from="1509343849170" duration="21828000" />
     </task>
     <task id="LOCAL-00001" summary="h">
       <created>1508826975285</created>
@@ -233,7 +237,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82906000" />
+    <option name="totallyTimeSpent" value="83532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -269,7 +273,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -300,11 +304,16 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#149#265#0" expanded="false" />
-            <element signature="e#309#407#0" expanded="false" />
-            <element signature="e#437#469#0" expanded="false" />
-            <element signature="e#498#573#0" expanded="false" />
-            <element signature="n#!!block;n#getListChildren#0" expanded="false" />
+            <element signature="n#!!block;n#$#0" expanded="false" />
+            <element signature="e#90#751#0" expanded="false" />
+            <element signature="e#150#266#0" expanded="false" />
+            <element signature="e#310#408#0" expanded="false" />
+            <element signature="e#438#470#0" expanded="false" />
+            <element signature="e#499#574#0" expanded="false" />
+            <element signature="n#!!block;n#filterResults#0" expanded="false" />
+            <element signature="n#!!block;n#filterListByTag#0" expanded="false" />
+            <element signature="n#!!block;n#filterListByClassName#0" expanded="false" />
+            <element signature="n#!!block;n#firstFilter#0" expanded="false" />
             <element signature="n#!!block;n#getByID#0" expanded="false" />
             <element signature="n#!!block;n#getByTag#0" expanded="false" />
             <element signature="n#!!block;n#getByClass#0" expanded="false" />
@@ -552,28 +561,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/OfekTwitter/users.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="47" column="6" lean-forward="true" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/ofekQuery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="622">
-          <caret line="66" column="17" lean-forward="true" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+        <state relative-caret-position="289">
+          <caret line="104" column="0" lean-forward="true" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
           <folding>
-            <element signature="e#149#265#0" expanded="false" />
-            <element signature="e#309#407#0" expanded="false" />
-            <element signature="e#437#469#0" expanded="false" />
-            <element signature="e#498#573#0" expanded="false" />
-            <element signature="n#!!block;n#getListChildren#0" expanded="false" />
+            <element signature="n#!!block;n#$#0" expanded="false" />
+            <element signature="e#90#751#0" expanded="false" />
+            <element signature="e#150#266#0" expanded="false" />
+            <element signature="e#310#408#0" expanded="false" />
+            <element signature="e#438#470#0" expanded="false" />
+            <element signature="e#499#574#0" expanded="false" />
+            <element signature="n#!!block;n#filterResults#0" expanded="false" />
+            <element signature="n#!!block;n#filterListByTag#0" expanded="false" />
+            <element signature="n#!!block;n#filterListByClassName#0" expanded="false" />
+            <element signature="n#!!block;n#firstFilter#0" expanded="false" />
             <element signature="n#!!block;n#getByID#0" expanded="false" />
             <element signature="n#!!block;n#getByTag#0" expanded="false" />
             <element signature="n#!!block;n#getByClass#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OfekTwitter/users.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
