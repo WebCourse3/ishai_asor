@@ -19,13 +19,17 @@ var queryResults = function(query){
 	};
 
 	this.each = function(func){
-		this.items.forEach(func);
+		for(var i = 0;i<this.items.length;i++){
+		func(this.items[i]);
+		}
 	};
 
 	this.map = function(func){
 		var tmp = [];
-		tmp = this.itemsl
-		tmp.forEach(func);
+		tmp = this.items;
+		for(var i=0;i<tmp.length;i++){
+			func(tmp[i]);
+		}
 		return tmp;
 	};
 
