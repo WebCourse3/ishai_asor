@@ -45,7 +45,11 @@ function filterResults(operator,results) {
 	operator = operator.toUpperCase();
 	results = Array.prototype.slice.call(results);
 
-	if(operator.charAt(0) == '.') {
+	if(operator.charAt(0) == '#')
+	{
+       return filterListByID(results,operator);
+	}
+	else if(operator.charAt(0) == '.') {
 		return filterListByClassName(results,operator);
 	}
 	else
@@ -53,6 +57,17 @@ function filterResults(operator,results) {
 		return filterListByTag(results,operator);
 	}
 }
+
+
+function filterListByID(results,operator) {
+
+	var list = [];
+	list = Array.prototype.slice.call(list);
+	list[0] = results.filter(function (result) {
+		return result.id == operator.substring(1,result.length);
+	});
+}
+
 
 function filterListByTag(results,operator) {
 	var tmp = [];

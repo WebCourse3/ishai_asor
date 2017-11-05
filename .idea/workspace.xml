@@ -33,13 +33,12 @@
       <file leaf-file-name="ofekQuery.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/ofekQuery.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+            <state relative-caret-position="193">
+              <caret line="49" column="47" lean-forward="false" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
               <folding>
                 <element signature="n#!!block;n#$#0" expanded="false" />
                 <element signature="e#150#266#0" expanded="false" />
                 <element signature="e#310#408#0" expanded="false" />
-                <element signature="n#!!block;n#filterResults#0" expanded="false" />
                 <element signature="n#!!block;n#filterListByTag#0" expanded="false" />
                 <element signature="n#!!block;n#filterListByClassName#0" expanded="false" />
                 <element signature="n#!!block;n#firstFilter#0" expanded="false" />
@@ -124,6 +123,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,32 +132,10 @@
               <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="exercise" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="OfekTwitter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,7 +201,9 @@
       <workItem from="1508997696226" duration="11455000" />
       <workItem from="1509260742775" duration="11584000" />
       <workItem from="1509343849170" duration="22419000" />
-      <workItem from="1509430570947" duration="1786000" />
+      <workItem from="1509430570947" duration="3058000" />
+      <workItem from="1509441029899" duration="1201000" />
+      <workItem from="1509864535848" duration="282000" />
     </task>
     <task id="LOCAL-00001" summary="h">
       <created>1508826975285</created>
@@ -235,21 +216,21 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85909000" />
+    <option name="totallyTimeSpent" value="88664000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1703125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17329094" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -286,13 +267,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/ofekQuery.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!block;n#$#0" expanded="false" />
+            <element signature="e#150#266#0" expanded="false" />
+            <element signature="e#310#408#0" expanded="false" />
+            <element signature="n#!!block;n#filterListByTag#0" expanded="false" />
+            <element signature="n#!!block;n#filterListByClassName#0" expanded="false" />
+            <element signature="n#!!block;n#firstFilter#0" expanded="false" />
+            <element signature="n#!!block;n#getByID#0" expanded="false" />
+            <element signature="n#!!block;n#getByTag#0" expanded="false" />
+            <element signature="n#!!block;n#getByClass#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfekTwitter/users.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="6" lean-forward="false" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ofekQuery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!block;n#$#0" expanded="false" />
+            <element signature="e#150#266#0" expanded="false" />
+            <element signature="e#310#408#0" expanded="false" />
+            <element signature="n#!!block;n#filterListByTag#0" expanded="false" />
+            <element signature="n#!!block;n#filterListByClassName#0" expanded="false" />
+            <element signature="n#!!block;n#firstFilter#0" expanded="false" />
+            <element signature="n#!!block;n#getByID#0" expanded="false" />
+            <element signature="n#!!block;n#getByTag#0" expanded="false" />
+            <element signature="n#!!block;n#getByClass#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OfekTwitter/users.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="6" lean-forward="false" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ofekQuery.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1768">
           <caret line="104" column="0" lean-forward="true" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
           <folding>
             <element signature="n#!!block;n#$#0" expanded="false" />
             <element signature="e#150#266#0" expanded="false" />
             <element signature="e#310#408#0" expanded="false" />
-            <element signature="n#!!block;n#filterResults#0" expanded="false" />
             <element signature="n#!!block;n#filterListByTag#0" expanded="false" />
             <element signature="n#!!block;n#filterListByClassName#0" expanded="false" />
             <element signature="n#!!block;n#firstFilter#0" expanded="false" />
@@ -326,7 +358,6 @@
             <element signature="n#!!block;n#$#0" expanded="false" />
             <element signature="e#150#266#0" expanded="false" />
             <element signature="e#310#408#0" expanded="false" />
-            <element signature="n#!!block;n#filterResults#0" expanded="false" />
             <element signature="n#!!block;n#filterListByTag#0" expanded="false" />
             <element signature="n#!!block;n#filterListByClassName#0" expanded="false" />
             <element signature="n#!!block;n#firstFilter#0" expanded="false" />
@@ -560,13 +591,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/ofekQuery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        <state relative-caret-position="193">
+          <caret line="49" column="47" lean-forward="false" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
           <folding>
             <element signature="n#!!block;n#$#0" expanded="false" />
             <element signature="e#150#266#0" expanded="false" />
             <element signature="e#310#408#0" expanded="false" />
-            <element signature="n#!!block;n#filterResults#0" expanded="false" />
             <element signature="n#!!block;n#filterListByTag#0" expanded="false" />
             <element signature="n#!!block;n#filterListByClassName#0" expanded="false" />
             <element signature="n#!!block;n#firstFilter#0" expanded="false" />
