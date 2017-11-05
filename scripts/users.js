@@ -31,6 +31,9 @@ document.addEventListener('DOMContentLoaded', function() {
 }, false);
 
 function filterUsers(){
+	test_group('test group 1',function () {
+		assert(true,'filter users success');
+	});
 	var filter = document.getElementById('filter').value.toUpperCase();
     var grid = document.getElementById('general-grid');
     if(grid == null){//for some reason the grid turn to null
@@ -52,6 +55,7 @@ function filterUsers(){
 		grid.appendChild(createUserDiv(results[j],false));//get the followers grid
 	}
 }
+
 
 function Follow(userid){
 	var userElements = document.getElementsByClassName(userid);
