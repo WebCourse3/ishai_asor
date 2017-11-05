@@ -1,22 +1,71 @@
+<!--comment for pull reqeust-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>ofek twitter</title>
 	<link rel="icon" href="../images/OfekUnit.png">
-	<link rel="stylesheet" href="../css/static.css">
-	<link rel="stylesheet" href="../css/SignUp.css">
+
+
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../css/SignIn1.css">
 </head>
 <body>
-<header>
-	<img src="../images/OfekUnit.png" alt="ofeklogo">
-	<a href="SignIn.html" >Sign In</a>
-	<a href="SignUp.html" >Sign Up</a>
-	<a href="users.html" >Users</a>
-
-
-	<h4>OfekTwitter</h4>
+<header class="navbar navbar-toggleable-md navbar-light bg-faded ">
+	<img src="../images/OfekUnit.png" alt="ofeklogo" class="navbar-left" >
+	<ul class="nav navbar-nav navbar-right">
+		<li>
+			<a href="SignIn.html" class="">Sign In</a>
+		</li>
+		<li>
+			<a href="SignUp.html" class="">Sign Up</a>
+		</li>
+		<li>
+			<a href="users.html" class="">Users</a>
+		</li>
+	</ul>
+	<a href="index.html" class="text-left pull-left"><h4 class="navbar-text navbar-header" >OfekTwitter</h4></a>
 </header>
+
+<form>
+	<div class="panel panel-default  col-xs-4 col-md-4  col-md-offset-4 ">
+		<div class="registar-header">Sign In</div>
+		<div class="registar-container-internal col-xs-12 col-md-12">
+			<div class="col-xs-1 col-md-12">
+				<div class="col-xs-0 col-md-4 ">
+					<p>Username</p>
+				</div>
+				<div class="col-xs-0 col-md-7">
+					<input type="text" id="UserName" placeholder="User name" class="form-control">
+				</div>
+			</div>
+			<div>
+				<div class="col-xs-1 col-md-12">
+					<div class="col-xs-0 col-md-4 ">
+						<p class="text-center">Password</p>
+					</div>
+					<div class="col-xs-0 col-md-7">
+						<input type="text" id="Password" placeholder="Password" class="form-control">
+					</div>
+				</div>
+
+			</div>
+			<div>
+				<div class="col-xs-1 col-md-12">
+					<div class="col-xs-0 col-md-4 ">
+						<p class="text-center">Password</p>
+					</div>
+					<div class="col-xs-0 col-md-7">
+						<input type="text" id="ConfirmPassword" placeholder="confirm Password" class="form-control">
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<input type="submit" class="btn btn-primary center-block">
+	</div>
+</form>
+<!--
 <form action="MyCtrl">
 	<div class="registar-container">
 		<div class="registar-header">Sign Up</div>
@@ -31,6 +80,6 @@
 		<input type="submit">
 	</div>
 </form>
-
+-->
 </body>
 </html>

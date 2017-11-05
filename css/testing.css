@@ -1,0 +1,19 @@
+.test-group{
+	width: 300px;
+	min-height: 50px;
+	background-color: lightgreen;
+	border: 1px solid;
+	display: inline-block;
+	text-align: center;
+	margin: 10px;
+}
+.test-message{
+	width: 280px;
+	margin: 10px;
+	min-height: 30px;
+	background-color: lightgreen;
+	border: 1px solid;
+	display: block;
+	float: left;
+
+}
