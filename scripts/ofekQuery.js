@@ -1,6 +1,5 @@
 function $(query){
 	return new queryResults(query);
-
 }
 
 var queryResults = function(query){

@@ -56,7 +56,6 @@ function filterUsers(){
 	}
 }
 
-
 function Follow(userid){
 	var userElements = document.getElementsByClassName(userid);
 	var results = users.filter(function(user) { return user.id == userid; });
