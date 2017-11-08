@@ -1,47 +1,82 @@
-class logger{
-	private name:string;
-	private configuration:Configuration;
+import {colorsTypes } from './colors.js';
+class logger {
 
-	  constructor(name:string,  configuration:Configuration)
-	 {
-          this.name = name;
-          this.configuration = configuration;
-	 }
+	private name: string;
+	private configuration: Configuration;
 
-	public log(level:any, strings:string[]):void{
-          strings.forEach(function (str) {
-	          console.log("\x1b[36m%s\x1b[0m",str) ;
-          })
+	constructor(name: string, configuration: Configuration) {
+		this.name = name;
+		this.configuration = configuration;
 	}
 
-	public info(strings:string[]):void{
-		strings.forEach(function (str) {
-			console.log("\x1b[32m%s\x1b[0m",str) ;
-		})
+	public log(level: any, strings: any[]): void {
+		let options = {
+			'debug'   : this.debug.bind(this),
+			'info'    : this.info.bind(this),
+			'warning' : this.warning.bind(this),
+			'error'   : this.error.bind(this)
+		};
+		let lvl = level || this.configuration.logLevel;
+		options[lvl](strings);
 	}
 
-	public warning(strings:string[]):void{
-		strings.forEach(function (str) {
-			console.log("\x1b[33m%s\x1b[0m",str) ;
-		})
+	public info(strings: string[]): void {
+		this.consolePrinter(colorsTypes.green,strings);
 	}
 
-	public debug(strings:string[]):void{
-		strings.forEach(function (str) {
-			console.log(str);
-		})
+	public warning(strings: string[]): void {
+		this.consolePrinter(colorsTypes.yellow,strings);
 	}
 
-	public error(strings:string[]):void{
-		strings.forEach(function (str) {
-			console.log("\x1b[31m%s\x1b[0m",str) ;
-		})
+	public debug(strings: any[]): void {
+		this.consolePrinter(colorsTypes.white,strings);
+	}
+
+	public error(strings: string[]): void {
+		this.consolePrinter(colorsTypes.red,strings);
+	}
+
+	private consolePrinter(colorType:colorsTypes,strings:any[]):void{
+		if(this.configuration.console)
+		{
+			strings.forEach(x=>
+			{
+					if(this.configuration.colors)
+					{
+						console.log(colorType,x);
+					}
+					else
+					{
+						console.log(x);
+					}
+			});
+
+
+		}
+		if(this.configuration.file)
+		{
+			strings.forEach(str=>
+			{
+				this.printToFile(str);
+			});
+		}
+	}
+
+	private printToFile(log: string) {
+	    let fs  = require('fs');
+		fs.appendFile('log.txt', log + '\r\n', (err) => {
+			if (err) throw err;
+		});
 	}
 }
 
- let x:logger = new logger('test',{console: true, file: true, colors: true, logLevel: true});
- x.log(1,['log test 1','log test 2']);
+ let x:logger = new logger('test',{console: true, file: true, colors: true, logLevel: 'debug'});
+ x.log('debug',['log test 1','log test 2']);
  x.info(['info 1','info 2']);
 x.debug(['debug 1','debug 2']);
  x.warning(['warning 1','warning 2']);
  x.error(['error 1','error 2']);
+
+
+
+

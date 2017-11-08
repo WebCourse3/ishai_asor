@@ -2,6 +2,9 @@
   "name": "exercise",
   "version": "0.0.1",
   "dependencies": {
-    
+    "http": "0.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.50"
   }
 }

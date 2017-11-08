@@ -1,0 +1,10 @@
+log test 1
+log test 2
+info 1
+info 2
+debug 1
+debug 2
+warning 2
+error 1
+warning 1
+error 2
