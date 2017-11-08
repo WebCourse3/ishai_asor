@@ -1,57 +1,69 @@
+<!--comment for pull reqeust-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>ofek twitter</title>
 	<link rel="icon" href="../images/OfekUnit.png">
-	<link rel="stylesheet" href="../css/static.css">
-	<link rel="stylesheet" href="../css/index.css">
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<link rel="stylesheet" href="../css/index1.css">
+	<script src="../scripts/tweets.js"></script>
+	<script src="../scripts/testing.js"></script>
+	<link rel="stylesheet" href="../css/testing.css">
+
 </head>
 <body>
-<header>
-	<img src="../images/OfekUnit.png" alt="ofeklogo">
-	<a href="SignIn.html" >Sign In</a>
-	<a href="SignUp.html" >Sign Up</a>
-	<a href="users.html" >Users</a>
-	<h4>OfekTwitter</h4>
+
+<header class="navbar navbar-toggleable-md navbar-light bg-faded ">
+	<img src="../images/OfekUnit.png" alt="ofeklogo" class="navbar-left" >
+	<ul class="nav navbar-nav navbar-right">
+		<li>
+			<a href="SignIn.html" class="">Sign In</a>
+		</li>
+		<li>
+			<a href="SignUp.html" class="">Sign Up</a>
+		</li>
+		<li>
+			<a href="users.html" class="">Users</a>
+		</li>
+	</ul>
+	<a href="index.html" class="text-left pull-left"><h4 class="navbar-text navbar-header" >OfekTwitter</h4></a>
 </header>
 <form>
-	<div class="add-comment">
-		<input type="text" placeholder="tweet text..." id="tweetText">
-		<input type="submit" value="publish"></input>
+	<div class="col-xs-10 col-md-10 col-md-offset-1">
+		<textarea placeholder="tweet text..." id="tweetText" class="col-xs-12 col-md-12  form-control noresize"></textarea>
+		<input type="button" value="publish" class="btn btn-primary pull-right" onclick="addTweet()"></input>
 	</div>
 </form>
-<div class="comment-holder">
-	<div class="comment-container">
-		<img src="../images/useravatar.png">
-		<div class="user-name">james says</div>
-		<div class="user-comment">blabla bbaaaa</div>
+<div class="col-xs-10 col-md-10 col-md-offset-1" id = "tweetsHolder">
 
-	<div class="comment-container">
-		<img src="../images/useravatar.png">
-		<div class="user-name">james says</div>
-		<div class="user-comment">blabla bbaaaa</div>
-
-	<div class="comment-container">
-		<img src="../images/useravatar.png">
-		<div class="user-name">james says</div>
-		<div class="user-comment">blabla bbaaaa</div>
-
-	<div class="comment-container">
-		<img src="../images/useravatar.png">
-		<div class="user-name">james says</div>
-		<div class="user-comment">blabla bbaaaa</div>
-
-		<div class="comment-container">
-			<img src="../images/useravatar.png">
-			<div class="user-name">james says</div>
-			<div class="user-comment">blabla bbaaaa</div>
-		</div>
-	</div>
-	</div>
-	</div>
+	<div class="row mt-1">
+		<img src="../images/useravatar.png" class="left col-xs-1 col-md-1">
+		<div class="user-name col-xs-11 col-md-11 text-left ">james says</div>
+		<div class="user-comment col-xs-11 col-md-11 text-left">blabla bbaaaa</div>
 	</div>
 
+	<div class="row mt-1">
+		<img src="../images/useravatar.png" class="left col-xs-1 col-md-1">
+		<div class="user-name col-xs-11 col-md-11 text-left ">james says</div>
+		<div class="user-comment col-xs-11 col-md-11 text-left">blabla bbaaaa</div>
+	</div>
 </div>
 </body>
+<script>
+	test_group('first test group', function() {
+		assert(true, "simple successful test");
+		assert(true, "simple successful test 2");
+		assert(false, "simple unsuccessful test");
+	});
+
+
+	test_group('second test group', function() {
+		assert(true, "simple successful test");
+		assert(true, "simple unsuccessful test 2");
+		assert(true, "simple unsuccessful test 3");
+	});
+
+</script>
+
 </html>
